@@ -48,6 +48,7 @@ Instructions for running BookWyrm in production:
 - If you wish to use an external storage for static assets and media files (such as an S3-compatible service), [follow the instructions](/external-storage.html) until it tells you to come back here
 - Run docker-compose in the background with: `docker-compose up -d`
 - Initialize the database with: `./bw-dev initdb`
+- Get your static files in place by running `./bw-dev initdb`
 
 Congrats! You did it, go to your domain and enjoy the fruits of your labors.
 
